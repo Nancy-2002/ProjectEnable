@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Tektur&display=swap');
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: pink;
+
+}
+.topbar{
+    position: fixed;
+    background-color: red;
+    width: 100%;
+    font-family: 'Tektur', cursive;
+    color: black;
+    border-color: black;
+    border-style: double;
+    display:flex;
+}
+.main{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    right :0px;
+    top: 100px;
+    font-family: 'Edu QLD Beginner', cursive;
+    background-color: pink;
+}
+.nav{
+position: fixed;
+right: 100px;
+top : 25px;
+display: inline-block;  
+}
+.logo{
+    width:6%;
+    height: 6%;
+}
+.vision{
+    position: relative;
+    margin: 2%;
+    padding: 5%;
+    background-color: pink;
+}
+.carousel{
+    display:flexbox;
+}
+.btn{
+    text-decoration: black;
+}
